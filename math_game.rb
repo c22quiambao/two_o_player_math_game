@@ -6,9 +6,6 @@ class MathGame
   def initialize(player1, player2)
     @players = [player1, player2]
     @current_player = player1
-   # @current_player_life = 3
-   # @player1_life_left = 3
-   # @player2_life_left = 3
   end
 
   def ask_question
